@@ -8,6 +8,10 @@ Do you know who serves your favorite bagel in Chicago? How about your favorite b
 
 **Users cannot currently sign in.** We'll study how to achieve that next week. **For now, just assume that the admin of the site is doing all of the data entry**, so you will call in when you love a dish somewhere and the admin will select your username from a dropdown when recording that info in the app.
 
+[Here is your target.](https://verybest-associations-target.herokuapp.com/)
+
+[Here are solutions.](../../../../very_best_associations_solutions/commit/899f509fc4356f9cbfe9826d88897c647c32df19)
+
 ## Domain Model
 
 The central resource in this application is **Favorites**. A favorite belongs to a user and specifies a particular restaurant and a particular dish. For example, my favorite burger in Chicago is served at Au Cheval. Yours might be at Umami Burger. So the favorites table looks like this:
