@@ -10,7 +10,7 @@ Do you know who serves your favorite bagel in Chicago? How about your favorite b
 
 [Here is your target.](https://verybest-associations-target.herokuapp.com/)
 
-Solution:
+Solutions:
 
  - [Part 1](https://github.com/dsgn425-s15/very_best_associations_solutions/commit/899f509fc4356f9cbfe9826d88897c647c32df19)
  - [Part 2](https://github.com/dsgn425-s15/very_best_associations_solutions/commit/c1ff06cb805d7bdda66685d642eab78137074b14)
@@ -18,8 +18,6 @@ Solution:
  - [Part 4](https://github.com/dsgn425-s15/very_best_associations_solutions/commit/c3285568eadf0057fa11dbcd2c779a8919db0072)
  - [Part 5](https://github.com/dsgn425-s15/very_best_associations_solutions/commit/ee2e2e4de23b50f981971ee4a270edec48489b85)
  - [Part 6](https://github.com/dsgn425-s15/very_best_associations_solutions/commit/f8616e171edc8c25e0b513d08eb2932ddbbb4152)
-
-[Here are solutions.](../../../very_best_associations_solutions/commits/master)
 
 ## Domain Model
 
