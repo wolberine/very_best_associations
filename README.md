@@ -185,21 +185,19 @@ Other views that require fixing:
 
 ## Part 5: Achieve User Stories
 
-Now, the interesting part. The core user story in this app is: I should be able to see a list of the venues that serve my favorite version of dishes.
+The real power of this app comes from being able to see collections of associated objects. As a user, I want to
 
-**Your task: on the users#show view, display a list of the user's favorites (which dish and which venue).**
+ - see a list of venues located in a neighborhood on the neighborhoods#show page (print names)
+ - see a list of favorites on the dishes#show page (print venue names and usernames)
+ - see a list of favorites on the venues#show page (print dish names and usernames)
+
+And, the most crucial part: **on the users#show view, display a list of the user's favorites (which dish and which venue).**
 
 You'll have to retrieve some rows from the Favorites table (the ones that belong to the user whose show page you are on). Because of the work we did in Part 2, this is as easy as
 
     @user.favorites
 
 Loop through them in the view and display the associated venue's name and dish's name. You can decide what markup to use to make it look nice.
-
-Also,
-
- - display a list of venues located in a neighborhood on the neighborhoods#show page (print names)
- - display a list of favorites on the dishes#show page (print venue names and usernames)
- - display a list of favorites on the venues#show page (print dish names and usernames)
 
 ## Part 6 (optional)
 
