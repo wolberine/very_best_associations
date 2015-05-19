@@ -203,7 +203,18 @@ Also,
 
 ## Part 6 (optional)
 
-On the show page for a venue, display all of the dishes for which users have recorded that venue as being their favorite place.
+On the show page for a neighborhood, display all of the favorites that are in that neighborhood. You can use the `:through` option to achieve this easily:
+
+```ruby
+class Neighborhood < ActiveRecord::Base
+  has_many :venues
+  has_many :favorites, :through => :venues
+end
+```
+
+Now, in the view (or anywhere else you have a Neighborhood object), you can do
+
+    @neighborhood.favorites
 
 ## Part 7 (nothing to submit)
 
