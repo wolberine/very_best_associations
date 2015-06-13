@@ -1,5 +1,5 @@
 cuisine_hashes = [
-  { :name => "Breakfast" },
+  { :name => "Derrick" },
   { :name => "American" },
   { :name => "Drink" },
   { :name => "Italian" },
